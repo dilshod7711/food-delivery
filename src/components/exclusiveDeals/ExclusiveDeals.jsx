@@ -1,11 +1,11 @@
 import { deals } from "../../api/api";
-import Cards from "../cards/ExculiveDealsCardProps";
+import Cards from "../props/ExclusiveDealsCardsprops";
 const ExclusiveDeals = () => {
   return (
     <section className="container mt-[20px]">
       <div className="flex justify-between items-center">
         <div>
-          <p className="text-[#000000] text-[32px] font-Poppins">
+          <p className="text-[#000000] text-[32px] font-Poppins font-bold">
             Up to -40% 🎊 Order.uk exclusive deals
           </p>
         </div>
